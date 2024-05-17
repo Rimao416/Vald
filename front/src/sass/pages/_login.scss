@@ -1,0 +1,47 @@
+.auth {
+  &__wrapper {
+    background-color: $white-color;
+  }
+    &__logo{
+        width:55px;
+        height: 55px;
+    }
+  &__header {
+    font-size: $default-font-size;
+    &--title {
+      display: block;
+      font-weight: bold;
+    }
+    &--sub-title {
+      display: block;
+    font-size: $default-font-size-2;
+    }
+  }
+&__form{
+    display: block;
+}
+&__register-link{
+    text-align: left;
+    @include link;
+    
+}
+&__btn{
+    background-color: $main-color;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: $default-font-size;
+    color: $white-color;
+}
+&__password{
+    position: relative;
+    &--eye{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5px;
+        cursor: pointer;
+        font-size: $default-font-size;
+    }
+}
+}

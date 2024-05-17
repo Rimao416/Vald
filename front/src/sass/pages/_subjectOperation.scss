@@ -1,0 +1,50 @@
+.wrapper {
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    * {
+      flex-basis: 23%;
+    }
+  }
+}
+.attendance {
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(56, 65, 74, 0.15);
+  &__header {
+    font-size: $default-font-size-2;
+    padding: 1.5rem;
+    h3 {
+      color: $gray-color-7;
+      font-weight: 600;
+    }
+  }
+  &__body {
+    background-color: $gray-color-6;
+    font-size: $default-font-size-2;
+    // padding: 3rem 6rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    &--container {
+      padding: 3rem 6rem;
+
+      border: 1px dashed $gray-color-1;
+      h3{
+        color:$gray-color-7;
+        font-weight: 600;
+        font-size: $default-font-size;
+      }
+      p{
+        margin-top: .5rem;
+        color:$gray-color-1;
+        font-weight: 500;
+        font-size: $default-font-size-2;
+      }
+    }
+  }
+  &--chart {
+    margin-top: 2rem;
+  }
+}

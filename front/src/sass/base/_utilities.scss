@@ -1,0 +1,69 @@
+.u-center-text {
+  text-align: center !important;
+}
+.u-block {
+  display: block !important;
+}
+// .u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+// .u-margin-bottom-medium { margin-bottom: 4rem !important;
+//     // @include respond(tab-port) {
+//     //     margin-bottom: 3rem !important;
+//     // }
+
+// }
+.u-margin-bottom-medium {
+  margin-bottom: $normal-margin !important;
+}
+.u-margin-bottom-small {
+  margin-bottom: $small-margin !important;
+}
+.u-margin-bottom-big {
+  margin-bottom: $large-margin !important;
+}
+.u-margin-top-small {
+  margin-top: $small-margin !important;
+}
+.u-margin-top-medium {
+  margin-top: $normal-margin !important;
+}
+
+.u-margin-top-big {
+  margin-top: $large-margin !important;
+}
+.u-margin-top-extra {
+  margin-top: $extra-large-margin !important;
+}
+// .u-margin-bottom-big { margin-bottom: 8rem !important; }
+
+// .u-margin-top-big { margin-top: 8rem !important;
+// @include respond(tab-port) {
+//     margin-bottom: 5rem !important;
+// }
+// }
+// .u-margin-top-huge { margin-top: 10rem !important; }
+
+.error {
+  border: 1px solid red !important;
+}
+.error-message {
+  color: red !important;
+  font-size: $default-font-size-3 !important;
+}
+.success-message {
+  color: green !important;
+  font-size: $default-font-size-3 !important;
+}
+
+// CARD BUTTON
+.violet-color-container {
+  background-color: rgba(132, 90, 223, 0.2);
+  color: $main-color;
+}
+.yellow-color-container {
+  background-color: $color-yellow-gradient;
+  color: $color-yellow;
+}
+.green-color-container {
+  background-color: rgba(34, 139, 34, 0.7);
+  color: rgb(34, 139, 34);
+}

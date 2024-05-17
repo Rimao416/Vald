@@ -1,0 +1,16 @@
+.image{
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px dashed $main-color;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 5px;
+        &--image{
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
