@@ -43,7 +43,7 @@ function RapportCreate() {
       // Filtrer les utilisateurs dont la date de décès est dans la plage spécifiée
       return paiement.isBetween(dateDebut, dateFin, null, "[]"); // '[]' pour inclure les dates de début et de fin
     });
-    console.log(filteredData);
+    console.log(filteredData); 
     // const rows = paiements.map((data) => [data.amount,moment(data.paymentDate).format("DD/MM/YYYY")]);
     // console.log(rows)
     // doc.autoTable({

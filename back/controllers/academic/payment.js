@@ -5,7 +5,7 @@ const { uuid } = require("uuidv4");
 exports.checkout = catchAsync(async (req, res, next) => {
   console.log(req.user);
   const stripe = require("stripe")(
-    "sk_test_51J5TX7LLiFJrGSKSKvf4QJMIZjy5jUTX0ogy8QXq7IaomItIs4JjVepjFWsqkd0oAxXWWYBaxfdMPRQ7aabOuJ1400fXagkfNr"
+    " sk_test_51J5TX7LLiFJrGSKSKvf4QJMIZjy5jUTX0ogy8QXq7IaomItIs4JjVepjFWsqkd0oAxXWWYBaxfdMPRQ7aabOuJ1400fXagkfNr"
   );
   stripe.charges.create(
     {
